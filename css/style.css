@@ -1,0 +1,40 @@
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--preto-semi-transparent);
+
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+
+  & .navegacao {
+    display: flex;
+    gap: 5rem;
+    font-weight: 700;
+
+    & a {
+      transition: border-bottom 0.4s, color 0.4s;
+
+      &:hover,
+      &:active {
+        color: var(--vermelho);
+        border-bottom: 1px solid var(--branco);
+      }
+    }
+  }
+
+  & .logo-nav {
+    margin-left: 3rem;
+
+    & .nome {
+      display: none;
+    }
+  }
+
+  & .nav-icones {
+    cursor: pointer;
+    display: none;
+  }
+}
