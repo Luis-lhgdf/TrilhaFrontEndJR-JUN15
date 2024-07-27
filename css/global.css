@@ -1,0 +1,46 @@
+:root {
+  --branco: #ffffff;
+  --preto: #000000;
+  --preto-semi-transparent: #000000f5;
+  --vermelho: #e53939;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.92rem;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.4s;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.secao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 6.1rem;
+}
+
+.container {
+  max-width: 100rem;
+}

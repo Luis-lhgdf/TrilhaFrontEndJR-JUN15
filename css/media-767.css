@@ -1,0 +1,104 @@
+@media all and (max-width: 47.9375em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .nav-aberta {
+    .cabecalho {
+      display: flex;
+
+      & .navegacao {
+        color: var(--preto);
+        background-color: var(--branco);
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-flow: column;
+        text-align: center;
+        position: fixed;
+
+        top: 1.2rem;
+        right: 3.5rem;
+
+        width: 20rem;
+        gap: 2rem;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+
+        &.segundo {
+          border-radius: 0rem;
+          top: 15.9rem;
+          padding-top: 2rem;
+          padding-bottom: 3rem;
+          border-bottom-left-radius: 2rem;
+          border-bottom-right-radius: 2rem;
+        }
+
+        & a {
+          border-bottom: 1px solid var(--preto);
+        }
+      }
+
+      & .nav-icones {
+        display: flex;
+        z-index: 999;
+
+        & .nav-icone--fechar {
+          display: flex;
+        }
+
+        & .nav-icone--menu {
+          display: none;
+        }
+        & img {
+          width: 4.5rem;
+        }
+      }
+    }
+  }
+
+  .cabecalho {
+    font-size: 2.3rem;
+    justify-content: space-between;
+
+    padding: 0rem 5rem;
+
+    & .navegacao {
+      display: none;
+    }
+
+    & .logo-nav {
+      margin-left: 0rem;
+
+      & .caixa-nome {
+        display: flex;
+        align-items: center;
+
+        & img {
+          width: 12rem;
+        }
+
+        & .nome {
+          display: block;
+        }
+      }
+
+      &:hover {
+        color: var(--vermelho);
+      }
+    }
+
+    & .nav-icones {
+      display: flex;
+
+      & .nav-icone--fechar {
+        display: none;
+      }
+      & img {
+        width: 5rem;
+      }
+    }
+  }
+}
