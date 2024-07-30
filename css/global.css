@@ -69,7 +69,7 @@ main {
   max-width: 100rem;
 }
 
-.realce {
+span {
   color: var(--vermelho);
   font-weight: 700;
 }
