@@ -16,6 +16,7 @@
 
     & a {
       transition: border-bottom 0.4s, color 0.4s;
+      border-bottom: 1px solid var(--preto);
 
       &:hover,
       &:active {
@@ -36,5 +37,44 @@
   & .nav-icones {
     cursor: pointer;
     display: none;
+  }
+}
+
+.home-hero {
+  background-image: url(../assets/png/black-red2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70rem;
+  position: relative;
+
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+
+    & .social {
+      display: flex;
+      gap: 1rem;
+      position: absolute;
+      border-radius: 1rem;
+      bottom: 0;
+      padding: 1rem;
+      transform: translateY(2.5rem);
+      background-color: var(--branco);
+
+      & a {
+        border-radius: 50%;
+        display: flex;
+        width: 3rem;
+
+        & svg {
+          transition: fill 0.4s;
+          &:hover {
+            fill: var(--vermelho);
+          }
+        }
+      }
+    }
   }
 }

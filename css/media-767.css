@@ -101,4 +101,14 @@
       }
     }
   }
+
+  .home-hero {
+    .container {
+      & .social {
+        & a {
+          width: 5rem;
+        }
+      }
+    }
+  }
 }

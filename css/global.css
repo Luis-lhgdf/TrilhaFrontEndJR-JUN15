@@ -19,7 +19,7 @@ html {
 body {
   background-color: var(--preto);
   color: var(--branco);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.92rem;
   line-height: 1.4;
 }
@@ -28,6 +28,18 @@ a {
   text-decoration: none;
   color: inherit;
   transition: color 0.4s;
+}
+
+h1 {
+  font-size: 8.26rem;
+}
+
+h2 {
+  font-size: 6.88rem;
+}
+
+h3 {
+  font-size: 5.73rem;
 }
 
 section {
