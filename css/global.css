@@ -55,7 +55,7 @@ section {
 main {
   display: flex;
   flex-flow: column;
-  gap: 15rem;
+  gap: 12rem;
 }
 
 .secao {

@@ -180,3 +180,45 @@
     }
   }
 }
+
+.rodape {
+  background-image: url(../assets/png/black-red2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  & .container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    & .final {
+      margin: 3rem 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      width: 100%;
+      gap: 2rem;
+      & .luis-final {
+        max-width: 40rem;
+      }
+
+      & .social {
+        max-width: 30rem;
+
+        & svg {
+          width: 5rem;
+        }
+      }
+    }
+
+    & .copyright {
+      font-size: 1.33rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgb(255, 255, 255);
+      text-align: center;
+
+      & a {
+        font-weight: 600;
+        text-decoration: underline;
+      }
+    }
+  }
+}
