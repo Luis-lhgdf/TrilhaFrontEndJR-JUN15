@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-  font-size: 5.73rem;
+  font-size: 3.98rem;
 }
 
 h3 {
@@ -16,5 +16,17 @@ h3 {
       margin-top: 2rem;
       flex-flow: row wrap;
     }
+  }
+}
+
+.icone-bg {
+  &.esquerda.arrow {
+    transform: translateX(-7rem);
+    width: 15rem;
+  }
+
+  &.direita.arrow {
+    transform: translateX(7rem);
+    width: 15rem;
   }
 }
