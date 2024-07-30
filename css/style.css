@@ -131,3 +131,32 @@
     }
   }
 }
+
+.hobbies {
+  overflow: hidden;
+  & .container {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+
+    & .meus-hobbies {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-flow: row wrap;
+      gap: 2rem;
+
+      & .hobbie {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        gap: 1rem;
+        & svg {
+          width: 8rem;
+        }
+      }
+    }
+  }
+}
