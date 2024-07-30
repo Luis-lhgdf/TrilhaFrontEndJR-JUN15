@@ -164,7 +164,7 @@
 .motivacoes {
   overflow: hidden;
   & .container {
-    height: 40rem;
+    height: 50rem;
     position: relative;
     display: flex;
     flex-flow: column;
