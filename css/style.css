@@ -44,7 +44,7 @@
   background-image: url(../assets/png/black-red2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70rem;
+  height: 75rem;
   position: relative;
 
   .container {
@@ -69,10 +69,71 @@
         width: 3rem;
 
         & svg {
-          transition: fill 0.4s;
+          fill: var(--preto);
+
           &:hover {
             fill: var(--vermelho);
           }
+        }
+      }
+    }
+  }
+}
+
+.sobre-mim {
+  overflow: hidden;
+  & .container {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+
+    & h2 {
+      border-bottom: 1px solid var(--vermelho);
+    }
+
+    & .bloco-sobre {
+      display: flex;
+
+      & .img-perfil {
+        align-self: center;
+        width: 40rem;
+
+        & img {
+          width: 100%;
+          object-fit: cover; /* Cobre todo o espaço da div sem distorcer a imagem */
+        }
+      }
+
+      & .sobre {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 2rem;
+        flex: 1;
+
+        & h2 {
+          align-self: flex-end;
+        }
+      }
+    }
+
+    & .bloco-skills {
+      display: flex;
+      flex-flow: column wrap;
+      gap: 2rem;
+
+      & h2 {
+        align-self: baseline;
+      }
+
+      & .skill {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+
+        & svg {
+          width: 10rem;
         }
       }
     }

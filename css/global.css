@@ -35,11 +35,11 @@ h1 {
 }
 
 h2 {
-  font-size: 6.88rem;
+  font-size: 5.73rem;
 }
 
 h3 {
-  font-size: 5.73rem;
+  font-size: 47.8rem;
 }
 
 section {
@@ -55,4 +55,35 @@ section {
 
 .container {
   max-width: 100rem;
+}
+
+.realce {
+  color: var(--vermelho);
+  font-weight: 700;
+}
+
+svg {
+  fill: white;
+  transition: fill 0.4s;
+}
+
+svg:hover {
+  fill: var(--vermelho);
+}
+
+.icone-bg {
+  position: absolute;
+  z-index: -1;
+
+  &.esquerda {
+    top: 0;
+    left: 0;
+    transform: translateX(-65rem);
+  }
+
+  &.direita {
+    right: 0;
+    bottom: 0;
+    transform: translateX(65rem);
+  }
 }

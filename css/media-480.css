@@ -9,3 +9,26 @@ h2 {
 h3 {
   font-size: 4.78rem;
 }
+
+.sobre-mim {
+  & .container {
+    & .bloco-sobre {
+      margin-top: 2rem;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+
+      & .sobre {
+        & h2 {
+          align-self: center;
+        }
+      }
+    }
+    & .bloco-skills {
+      & h2 {
+        align-self: center;
+        text-align: center;
+      }
+    }
+  }
+}
