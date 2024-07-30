@@ -88,10 +88,6 @@
     flex-flow: column;
     gap: 2rem;
 
-    & h2 {
-      border-bottom: 1px solid var(--vermelho);
-    }
-
     & .bloco-sobre {
       display: flex;
 
@@ -122,10 +118,6 @@
       display: flex;
       flex-flow: column wrap;
       gap: 2rem;
-
-      & h2 {
-        align-self: baseline;
-      }
 
       & .skill {
         display: flex;

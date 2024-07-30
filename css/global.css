@@ -36,14 +36,26 @@ h1 {
 
 h2 {
   font-size: 5.73rem;
+  border-bottom: 1px solid var(--vermelho);
+  align-self: baseline;
+
+  &.direita {
+    align-self: flex-end;
+  }
 }
 
 h3 {
-  font-size: 47.8rem;
+  font-size: 2.76rem;
 }
 
 section {
   scroll-margin-top: 100px;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  gap: 15rem;
 }
 
 .secao {
@@ -78,12 +90,12 @@ svg:hover {
   &.esquerda {
     top: 0;
     left: 0;
-    transform: translateX(-65rem);
+    transform: translateX(-35rem);
   }
 
   &.direita {
     right: 0;
     bottom: 0;
-    transform: translateX(65rem);
+    transform: translateX(35rem);
   }
 }
