@@ -19,7 +19,7 @@ html {
 body {
   background-color: var(--preto);
   color: var(--branco);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "PT Serif", serif;
   font-size: 1.92rem;
   line-height: 1.4;
 }
