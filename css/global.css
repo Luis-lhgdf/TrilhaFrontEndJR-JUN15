@@ -55,7 +55,7 @@ section {
 main {
   display: flex;
   flex-flow: column;
-  gap: 12rem;
+  gap: 5rem;
 }
 
 .secao {
@@ -99,4 +99,9 @@ svg:hover {
     bottom: 0;
     transform: translateX(35rem);
   }
+}
+
+.espaco-header {
+  padding-top: 10rem; /* Ajuste conforme a altura do cabeçalho */
+  margin-top: -7rem; /* Ajuste conforme a altura do cabeçalho */
 }
